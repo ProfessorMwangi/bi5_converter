@@ -1,3 +1,4 @@
 import polars as pl
-df = pl.read_parquet("../data/training/EURUSD_3s.parquet")
+df = pl.read_parquet(
+    "../data/output/EURUSD/EURUSD_20250623_23h_ticks.parquet")
 print(df)
